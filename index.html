@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas Housing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <h1 class="logo">Atlas Housing</h1>
+      <nav class="nav-links">
+        <a href="#">Stays</a>
+        <a href="#">Flights</a>
+        <a href="#">Car Rentals</a>
+        <a href="#">Attractions</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Find your next stay</h2>
+      <p>Search deals on hotels, homes, and much more...</p>
+    </div>
+  </section>
+
+  <section class="search-section">
+    <div class="container search-bar">
+      <input type="text" placeholder="Where are you going?">
+      <input type="date">
+      <input type="date">
+      <button onclick="handleSearch()">Search</button>
+    </div>
+  </section>
+
+  <section class="listing container">
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?hotel" alt="Hotel Room">
+      <div class="card-content">
+        <h3>City Center Hotel</h3>
+        <p>Located in the heart of the city, close to all attractions.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?resort" alt="Resort">
+      <div class="card-content">
+        <h3>Luxury Resort</h3>
+        <p>Relax and enjoy top-notch amenities and ocean views.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://source.unsplash.com/400x300/?apartment" alt="Apartment">
+      <div class="card-content">
+        <h3>Modern Apartment</h3>
+        <p>A stylish space with all the comforts of home.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Atlas Housing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
